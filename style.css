@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 1440px;
+  font-family: Epilogue;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+
+.top-div {
+  display: flex;
+  width: 93vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.over-div {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  /* color: hsl(0, 0%, 41%); */
+}
+
+.corner {
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+  gap: 30px;
+  margin-top: 0;
+  color: hsl(0, 0%, 41%);
+}
+
+.fa {
+  color: hsl(0, 0%, 41%);
+}
+
+.main-div {
+  width: 100vw;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 260px;
+}
+
+.divvs {
+  color: hsl(0, 0%, 41%);
+  align-items: center;
+  /* gap: 30px; */
+}
+
+button {
+  padding: 10px;
+  border-style: solid;
+  border-radius: 13px;
+  font-size: 15px;
+  width: 120px;
+  margin-top: 0;
+}
+
+nav a {
+  margin-right: 30px;
+  color: hsl(0, 0%, 41%);
+}
+
+a:link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.868);
+}
+
+h1 {
+  justify-content: center;
+}
+
+/* .paragh {
+  margin-top: 0;
+} */
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+  color: hsl(0, 0%, 41%);
+  margin-bottom: 50px;
+  line-height: 30px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.hero {
+  margin-top: 10px;
+  margin-right: 70px;
+}
+
+.remo {
+  margin-left: 160px;
+  margin-top: 10px;
+}
+
+.aside {
+  display: flex;
+}
+
+html,
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: Epilogue;
+  height: 100vh;
+  overflow: hidden;
+  /* width: 100vh; */
+  /* position: fixed; */
+}
+
+.more-info {
+  margin-left: 0;
+  border-style: solid;
+  border-radius: 13px;
+  background-color: hsl(0, 0%, 8%);
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  width: 140px;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: inline;
+}
+
+.main-footer {
+  margin-left: 160px;
+  /* margin-bottom: 150px; */
+  align-items: center;
+  /* justify-content: space-between; */
+  /* gap: 50px; */
+}
+
+.audiophile {
+  margin-right: 40px;
+}
+
+.databiz {
+  margin-right: 40px;
+}
+
+.meet {
+  margin-right: 40px;
+}
+.meet {
+  margin-right: 40px;
+}
